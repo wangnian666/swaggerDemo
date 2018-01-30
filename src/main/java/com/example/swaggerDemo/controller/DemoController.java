@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @Api("swagger测试")
 @RestController
-@RequestMapping(value="/")
+@RequestMapping(value="/swagger")
 public class DemoController {
 	
 	@ApiOperation(value="方法测试",notes="根据传参返回对应的值")
